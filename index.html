@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- SOURCES : Quicksand font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- SOURCES: Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="wrapper-menu-icons">
+          <!-- TODO : Place card of icons with price set to BUTTON so can add up value 8 MENU -->
+          <div class="icons-row-1">
+            <i class="fa-solid fa-carrot" value="1.30"></i>
+            <i class="fa-solid fa-leaf"></i>
+            <i class="fa-solid fa-apple-whole"></i>
+            <i class="fa-solid fa-pepper-hot"></i>
+          </div>
+          <div class="icons-row-2">
+            <i class="fa-solid fa-wine-glass"></i>
+            <i class="fa-solid fa-burger"></i>
+            <i class="fa-solid fa-drumstick-bite"></i>
+            <i class="fa-solid fa-egg"></i>
+          </div>
+          <div class="icons-row-3">
+            <i class="fa-solid fa-fish"></i>
+            <i class="fa-solid fa-shrimp"></i>
+            <i class="fa-solid fa-cake-candles"></i>
+            <i class="fa-solid fa-bacon"></i>
+          </div>
+
+          <!-- TODO : Set the value so that it can take up when onclick() apply -->
+          <!-- TODO : Make the card resizing accroding to the how many cards added automatically -->
+        </div>
+        <div class="wrapper-cart">
+          <!-- TODO : h1 CART word -->
+          <h1>Cart</h1>
+          <div class="wrapper-cart-quantity">
+            <div class="cart-card">
+              <div class="cart-card-input">
+                <i class="fa-solid fa-carrot" value="1.30"></i>
+                <button>+</button>
+                <button>-</button>
+              </div>
+              <div class="cart-card-input">
+                <i class="fa-solid fa-leaf"></i>
+                <button>+</button>
+                <button>-</button>
+              </div>
+              <div class="cart-card-input">
+                <i class="fa-solid fa-apple-whole"></i>
+                <button>+</button>
+                <button>-</button>
+              </div>
+              <div class="cart-card-input">
+                <i class="fa-solid fa-pepper-hot"></i>
+                <button>+</button>
+                <button>-</button>
+              </div>
+              <div class="cart-card-input">
+                <i class="fa-solid fa-wine-glass"></i>
+                <button>+</button>
+                <button>-</button>
+              </div>
+              <div class="cart-card-input">
+                <i class="fa-solid fa-burger"></i>
+                <button>+</button>
+                <button>-</button>
+              </div>
+              <div class="cart-card-input">
+                <i class="fa-solid fa-drumstick-bite"></i>
+                <button>+</button>
+                <button>-</button>
+              </div>
+              <div class="cart-card-input">
+                <i class="fa-solid fa-egg"></i>
+                <button>+</button>
+                <button>-</button>
+              </div>
+            </div>
+            <!-- TODO : Create cart-cart (HAVE OWN CONTAINER) -->
+            <!-- TODO : -COMPONENTS IN cart-card : Icons of every menu add up: \
+                        -Quantity BUTTON ( + ) ( - ), 
+                        -Display quantity number if press (+) or (-) -->
+          </div>
+
+          <div class="wrapper-cart-calculation">
+            <div class="input-group">
+              <div class="input-group-subtotal">
+                <h3>Sub total</h3>
+                <input type="button" value="0" />
+              </div>
+              <div class="input-group-admin">
+                <h3>Admin fee</h3>
+                <input type="button" value="0" />
+              </div>
+              <div class="input-group-total">
+                <h3>Total</h3>
+                <input type="button" value="0" />
+              </div>
+              <!-- TODO : Sub totol INPUT
+              TODO : Admin Fee INPUT
+            
+              TODO : Total INPUT -->
+              <button>Paid</button>
+            </div>
+            <!-- TODO: Checkout BUTTON - Send and store in global object of the system -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
