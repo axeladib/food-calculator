@@ -87,14 +87,13 @@
 }
 
 /* TODO: Making the button align at the right of the quantity card */
-.btn-quantity {
-  display: flex;
-  right: 5rem;
-}
-.fa-solid.fa-plus {
-  /* position: absolute; */
+
+ .fa-solid.fa-plus {
+  position: absolute;
+  left: 12rem;
 }
 .fa-solid.fa-minus {
-  /* position: absolute;
-  right: 1rem; */
+ position: absolute;
+ left: 15rem;
 }
+/* TODO:Show the quantity display */
