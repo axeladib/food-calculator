@@ -16,7 +16,6 @@
   border-radius: 3rem;
   display: flex;
   justify-content: center;
-
 }
 
 /* FEATURE: ICONS */
@@ -58,12 +57,44 @@
 /* CART DESIGN */
 .wrapper-cart {
   width: 30%;
-  background-color: #f8f9d7;
+  background-color: #66bfbf;
   border-radius: 2rem;
- margin: 1rem;
-
+  margin: 1rem;
 }
-.wrapper-cart h1{
-    color: #1b2430;
-    margin-left: 2rem;
+.wrapper-cart h1 {
+  color: #1b2430;
+  margin-left: 2rem;
+}
+.cart-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+}
+.cart-card-input {
+  position: relative;
+  width: 90%;
+  height: 2.5rem;
+  background-color: #16003b;
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+}
+.cart-card-input i {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+}
+
+/* TODO: Making the button align at the right of the quantity card */
+.btn-quantity {
+  display: flex;
+  right: 5rem;
+}
+.fa-solid.fa-plus {
+  /* position: absolute; */
+}
+.fa-solid.fa-minus {
+  /* position: absolute;
+  right: 1rem; */
 }
