@@ -50,6 +50,7 @@
 .wrapper-menu-icons i {
   font-size: 8rem;
   padding: 1rem;
+  color: #16003b;
 }
 
 /* END OF MENU ICONS */
@@ -64,6 +65,7 @@
 .wrapper-cart h1 {
   color: #1b2430;
   margin-left: 2rem;
+  letter-spacing:0.1rem;
 }
 .cart-card {
   display: flex;
@@ -78,22 +80,103 @@
   background-color: #16003b;
   border-radius: 2rem;
   margin-bottom: 0.5rem;
+  outline: none;
+  border: none;
 }
 .cart-card-input i {
   font-size: 1.5rem;
   position: absolute;
   left: 1rem;
   top: 0.5rem;
+  color: #7a86b6;
 }
 
 /* TODO: Making the button align at the right of the quantity card */
 
- .fa-solid.fa-plus {
+.fa-solid.fa-plus {
   position: absolute;
   left: 12rem;
+  background-color: #7a86b6;
+  padding: 0.3rem;
+  border-radius: 50%;
+  font-size: 1rem;
 }
 .fa-solid.fa-minus {
- position: absolute;
- left: 15rem;
+  position: absolute;
+  left: 15rem;
+  background-color: #7a86b6;
+  padding: 0.3rem;
+  border-radius: 50%;
+  font-size: 1rem;
+  border:none;
+  outline: none;
+  cursor: pointer;
 }
 /* TODO:Show the quantity display */
+.input-group{
+  width:10rem;
+  height: 13;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group-subtotal h3,.input-group-admin h3{
+   color: #000000;
+   font-weight: 600;
+   margin-left: 2.5rem;
+}
+.subtotal-display,.admin-display{
+  width: 7rem;
+  height: 1.5rem;
+  background-color: #16003b;
+  margin-left: 2rem;
+  border-radius: 3rem;
+  margin-top: 0.1rem;
+  letter-spacing:0.1rem;
+}
+
+
+/* TODO:total display align at the right */
+.total-display{
+    width: 7rem;
+  height: 1.5rem;
+  background-color: #16003b;
+  margin-left: 2rem;
+  border-radius: 3rem;
+  margin-top: 0.1rem;
+  letter-spacing:0.1rem;
+  position: absolute;
+   left: 60%;
+   top: 32rem;
+}
+.input-group-total h3{
+   color: #000000;
+   font-weight: 600;
+   margin-left: 2.5rem;
+   letter-spacing: 0.1rem;
+
+   position: absolute;
+      right: 32rem;
+      bottom:13rem;
+}
+/* TODO:Button for paid */
+.input-group button{
+  width: 10rem;
+  height: 2rem;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  border-radius: 3rem;
+  padding: 0.1rem;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1rem;
+  position: absolute;
+  top: 78%;
+  right: 33.5%;
+  transform: translateY(50%);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #7a86b6;
+}
