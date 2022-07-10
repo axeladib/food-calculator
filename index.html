@@ -28,23 +28,30 @@
       <div class="wrapper">
         <div class="wrapper-menu-icons">
           <!-- TODO : Place card of icons with price set to BUTTON so can add up value 8 MENU -->
+
+          <!-- Backend Devs 
+                TODO:Set the name(value) for each of the i tag
+                TODO:Select every i tag 
+                TODO:Set the onclick function
+                TODO:when the user click the i tag,store the value inside the object
+                DEMO_DATABASE_STORING: {name:1,price:2.50} -->
           <div class="icons-row-1">
-            <i class="fa-solid fa-carrot" value="1.30"></i>
-            <i class="fa-solid fa-leaf"></i>
-            <i class="fa-solid fa-apple-whole"></i>
-            <i class="fa-solid fa-pepper-hot"></i>
+            <i class="fa-solid fa-carrot icon-option" value="carrot" price="price"></i>
+            <i class="fa-solid fa-leaf icon-option" value="leaf"></i>
+            <i class="fa-solid fa-apple-whole icon-option" value="apple"></i>
+            <i class="fa-solid fa-pepper-hot icon-option" value="pepper"></i>
           </div>
           <div class="icons-row-2">
-            <i class="fa-solid fa-wine-glass"></i>
-            <i class="fa-solid fa-burger"></i>
-            <i class="fa-solid fa-drumstick-bite"></i>
-            <i class="fa-solid fa-egg"></i>
+            <i class="fa-solid fa-wine-glass icon-option"></i>
+            <i class="fa-solid fa-burger icon-option"></i>
+            <i class="fa-solid fa-drumstick-bite icon-option"></i>
+            <i class="fa-solid fa-egg icon-option"></i>
           </div>
           <div class="icons-row-3">
-            <i class="fa-solid fa-fish"></i>
-            <i class="fa-solid fa-shrimp"></i>
-            <i class="fa-solid fa-cake-candles"></i>
-            <i class="fa-solid fa-bacon"></i>
+            <i class="fa-solid fa-fish icon-option"></i>
+            <i class="fa-solid fa-shrimp icon-option"></i>
+            <i class="fa-solid fa-cake-candles icon-option"></i>
+            <i class="fa-solid fa-bacon icon-option"></i>
           </div>
 
           <!-- TODO : Set the value so that it can take up when onclick() apply -->
@@ -56,8 +63,7 @@
           <div class="wrapper-cart-quantity">
             <div class="cart-card">
               <div class="cart-card-input">
-                <i class="fa-solid fa-carrot" value="1.30"></i>
-
+                <i class="fa-solid fa-carrot"></i>
                 <i class="fa-solid fa-plus"></i>
                 <i class="fa-solid fa-minus"></i>
                 <div class="quantity-item"></div>
@@ -126,7 +132,7 @@
               </div>
               <div class="input-group-admin">
                 <h3>Admin fee</h3>
-               <div class="admin-display"></div>
+                <div class="admin-display"></div>
               </div>
               <div class="input-group-total">
                 <h3>Total</h3>
@@ -143,5 +149,6 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
